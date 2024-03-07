@@ -1,0 +1,12 @@
+body {
+  background: black;
+  color: white;
+  font-family: poppins, sans-serif;
+  line-height: 1.7;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
