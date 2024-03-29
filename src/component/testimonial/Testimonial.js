@@ -36,10 +36,10 @@ const Testimonial = () => {
           {data.map((slide, index) => {
             const { client, name, review } = slide;
             return (
-              <div key={index} className='card'>
+              <div key={index} className='container testimonials_container'>
                 {index === currentSlide && (
                   <>
-                  <div className='card__wrapper'>
+                  <div className='testimonial'>
                     <div className='client_image'>
                       <img src={client} alt={name} />
                     </div>
